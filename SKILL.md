@@ -2,14 +2,14 @@
 name: pc-rebuild-automation
 description: 重装电脑 Windows 系统前后的“搬家助手”。很多人不敢重装系统，怕的不是装系统本身，是装完之后：软件都要重下重装、桌面和任务栏要重新摆、默认浏览器要重新设、文件打开方式全乱了，没有一两天调不回顺手的样子。本技能把这套麻烦事流程化：重装之前，先扫描您的桌面、任务栏和开始菜单的快捷方式，反推出您实际在用的软件清单（而不是系统里装过什么），同时记录您的个性化设置（鼠标指针、任务栏样式、默认浏览器、各类文件用什么打开）和各软件的配置；重装之后，按这份记录自动重建——软件装回最新版并建议装到 D 盘（给 C 盘留空间），设置逐项还原，让新系统“像没换过一样”。还附带三件顺手的优化：批量卸载新系统捆绑的软件（用不惯的防病毒、游戏、推广工具）；把临时文件、虚拟内存等大体积高读写缓存移到其它盘，延长 C 盘寿命；附新机初始化清单。适合：想重装系统又怕折腾、买了新电脑要迁移，以及帮父母同事装电脑的人。触发词：电脑重装、重装系统、装系统、做系统、换系统、一键重装、系统搬家、软件搬家、备份软件、新机设置、新电脑迁移、装机、reinstall、reset pc、PC rebuild、system rebuild。
 agent_created: true
-version: 1.1.5
+version: 1.1.6
 author: 天工创新坊
 license: CC BY 4.0
 display_name: "Windows 重装系统搬家助手"
 display_name_en: PC Rebuild & Migration Assistant
-trigger: ["电脑重装", "重装系统", "装系统", "系统搬家", "软件搬家", "装机", "新机设置", "备份软件", "新电脑迁移"]
+trigger: ["电脑重装", "重装系统", "装系统", "系统搬家", "软件搬家", "装机", "新机设置", "备份软件", "新电脑迁移", "reinstall Windows", "PC migration", "software migration", "new PC setup", "backup installed software"]
 description_zh: "重装Windows系统前后记录并在Windows安装好后重建软件快捷方式、或重装软件，尽可能复原Windows系统的个性化设置与习惯，努力让使用体验与原系统一致"
-description_en: "Record and rebuild apps, settings and habits around a Windows reinstall"
+description_en: "Before and after reinstalling Windows, it records your apps and settings, then rebuilds shortcuts and reinstalls software once Windows is up, restoring personal settings and habits so the machine feels like the one you had before"
 category: productivity
 ---
 
